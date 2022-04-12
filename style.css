@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color:deepskyblue;
+    background-color:rgb(0, 140, 255);
   }
   
 body::-webkit-scrollbar {
@@ -84,3 +84,38 @@ nav ul li{
     font-size: 4rem;
   }
 
+@media screen and (max-width:850px){
+    nav ul li{
+        font-size: 1.75rem;
+    }
+
+    .selection{
+        font-size: 5rem;
+    }
+
+    .player{
+        font-size: 2.25rem;
+    }
+
+    .result-selection{
+        font-size: 1.25rem;
+    }
+
+    .result-selection.winner{
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:400px) {
+    nav ul li{
+        font-size: 1rem;
+    }
+
+    .selection{
+        font-size: 3rem;
+    }
+
+    .player{
+        font-size: 1.5rem;
+    }
+}
