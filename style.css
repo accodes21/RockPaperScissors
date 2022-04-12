@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:deepskyblue;
+  }
+  
+body::-webkit-scrollbar {
+    width: 0.75rem;
+}
+body::-webkit-scrollbar-track{
+    background: blue;
+    border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:linear-gradient(rgb(0, 255, 251),rgb(0, 157, 255));
+    border-radius: 100vw;
+}
+
+nav{
+    height: 65px;
+    background-color: aqua;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.selections{
+    display: flex;
+    justify-content: center;
+}
+
+.selection{
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 8rem;
+    transition: .2s;
+    cursor: pointer;
+}
+
+.selection:hover{
+    transform: scale(1.2);
+}
+
+.result{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.player{
+    font-size: 3rem;
+}
+
+.score{
+    font-size: 2rem;
+    margin-left: .5rem;
+}
+
+.result-selection {
+    opacity: .7;
+    font-size: 2.5rem;
+  }
+  
+  .result-selection.winner {
+    opacity: 1;
+    font-size: 4rem;
+  }
+

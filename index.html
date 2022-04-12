@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>ROCK PAPER SCISSORS</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="selections">
+        <button class="selection" data-selection="rock">✊</button>
+        <button class="selection" data-selection="paper">🤚</button>
+        <button class="selection" data-selection="scissors">✌️</button>
+    </div>
+    
+    <div class="result">
+        <div class="player">
+            You 
+            <span class="score" data-your-score>0</span>
+        </div>
+        <div class="player" data-final-column>
+            Computer
+            <span class="score" data-computer-score>0</span>
+            
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
